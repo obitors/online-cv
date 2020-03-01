@@ -17,7 +17,7 @@
     background-color: #ece3d4;
     width: 39%;
     height: 100%;
-    margin-bottom: 3%
+    padding-bottom: 3%;
 }
 
 .col-60 {
@@ -213,8 +213,14 @@ i {
     font-weight: 500;
 }
 
-my-references .reference {
+.my-references .reference {
+    margin-top: 3%;
     float: left;
+    text-align: left;
+}
+
+.reference span {
+    display: block;
 }
 
 .item-row {
