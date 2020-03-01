@@ -156,7 +156,7 @@ i {
 .right-content .heading {
     width: 100%;
     float: left;
-    margin-top: 5%;
+    margin-top: 3%;
     font-weight: normal;
     font-size: 12pt;
 }
@@ -175,7 +175,7 @@ i {
 }
 
 .right-content {
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 
@@ -208,7 +208,7 @@ my-references .reference {
 .item-row {
     float: left;
     width: 100%;
-    margin-top: 10pt;
+    margin-top: 6pt;
 }
 
 .item-row .left-item {
@@ -223,36 +223,41 @@ my-references .reference {
 
 .right-item .item-heading {
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-weight: 400;
 
 }
 
 .left-item .item-place {
     font-style: italic;
-    font-size: 10pt;
+    font-size: 7.5pt;
 }
 
 .left-item .item-year {
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 7.5pt;
 }
 
 .right-item .item-title {
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-weight: 300;
 }
 
 .right-item .item-title {
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: 7.5pt;
     font-weight: 300;
+}
+
+.right-item .item-content {
+    width: 80%;
+    text-align: justify;
 }
 
 
 body {
     font-family: aileron;
     font-weight: 100;
-    font-size: 8pt;
+    font-size: 7.5pt;
 }
