@@ -206,8 +206,8 @@ my-references .reference {
 }
 
 .item-row {
-    width: 100%;
     float: left;
+    width: 100%;
     margin-top: 10pt;
 }
 
@@ -223,7 +223,7 @@ my-references .reference {
 
 .right-item .item-heading {
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 8pt;
     font-weight: 400;
 
 }
@@ -240,13 +240,13 @@ my-references .reference {
 
 .right-item .item-title {
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 8pt;
     font-weight: 300;
 }
 
 .right-item .item-title {
     text-transform: uppercase;
-    font-size: 10pt;
+    font-size: 8pt;
     font-weight: 300;
 }
 
@@ -254,5 +254,5 @@ my-references .reference {
 body {
     font-family: aileron;
     font-weight: 100;
-    font-size: 10pt;
+    font-size: 8pt;
 }
