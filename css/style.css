@@ -2,6 +2,10 @@
     background-color: #f1f1f1;
 }
 
+.cv-color2 {
+    color: #9d744c;
+}
+
 .cv-main {
     max-width: 800px;
     margin: auto;
@@ -11,6 +15,7 @@
     float: left;
     background-color: #ece3d4;
     width: 39%;
+    height: 100%
 }
 
 .col-60 {
@@ -149,4 +154,26 @@ i {
     width: 100%;
 }
 
-body {}
+.right-content {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.my-heading .my-name {
+
+    font-family: 'Bebas Neue';
+    font-size: 30pt;
+}
+
+.my-heading .my-title {
+    font-style: italic;
+    margin-top: -1%
+}
+
+.my-heading a {
+    color: #000;
+}
+
+body {
+    font-family: aileron;
+}
