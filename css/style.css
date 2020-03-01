@@ -91,19 +91,17 @@
     white-space: pre-line;
 }
 
-
-
 .heading:before {
     content: "//";
     font-weight: bold;
     color: #99764f;
 }
 
-.separator {
-    margin-top: 3%;
+.seperator {
+
     width: 70%;
-    height: 2px;
-    background-color: 606060;
+    height: 1.5px;
+    background-color: #606060;
 }
 
 .programs {
@@ -143,11 +141,33 @@ i {
     white-space: pre-line;
 }
 
-.heading {
-    margin-top: 10%;
+.left-content .heading {
+    width: 100%;
+    float: left;
+    margin-top: 8%;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 12pt;
 }
+
+.right-content {
+    width: 100%;
+}
+
+.right-content .heading {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 12pt;
+}
+.my-education {
+    width: 100%
+}
+
+.right-content .seperator {
+    width: 70%;
+}
+
 
 .skills {
     float: left;
@@ -172,8 +192,18 @@ i {
 
 .my-heading a {
     color: #000;
+    font-weight: 400;
+}
+
+.my-references {
+    float: left;
+}
+
+my-references .reference {
+    float: left;
 }
 
 body {
     font-family: aileron;
+    font-weight: 100;
 }
