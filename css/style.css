@@ -294,7 +294,7 @@ i {
 
 .hobby-item {
   float: left;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 .hobby-item:first-child {
@@ -302,16 +302,23 @@ i {
   margin-left: 0%;
 }
 
-.hobby-item i {
-  width: 4%;
+.hobby-item  {
+  width: 15%;
 }
 
-.hobby-item .item-name {
+
+.hobby-item:last-child {
+  width: 20%;
+  margin-left:-3%;
+}
+
+.hobby-item .hobby-name {
 text-align: center;
 }
 
 .hobby-item .item-icon{
-  width: 5%;
+  font-size:250%;
+  text-align: center;
 }
 
 body {
