@@ -188,6 +188,7 @@ i {
 
   font-family: 'Bebas Neue';
   font-size: 30pt;
+  margin-top: 10%;
 }
 
 .my-heading .my-title {
@@ -324,6 +325,10 @@ text-align: center;
 .hobby-item .item-icon{
   font-size:250%;
   text-align: center;
+}
+
+.my-hobbies .item-row {
+  margin-bottom: 6%;
 }
 
 body {
